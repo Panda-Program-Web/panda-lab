@@ -1,0 +1,8 @@
+name = "baseball-daily-worker"
+main = "dist/index.js"
+compatibility_date = "2025-06-10"
+kv_namespaces = [
+  { binding = "BASEBALL_KV", id = "dummy" }
+]
+[triggers]
+crons = ["0 21 * * *"]

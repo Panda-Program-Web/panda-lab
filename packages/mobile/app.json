@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "俺の野球デイリー",
+    "slug": "baseball-daily",
+    "version": "1.0.0",
+    "sdkVersion": "50.0.0",
+    "platforms": ["ios", "android"],
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "apiBase": "http://localhost:8787"
+    }
+  }
+}
