@@ -1,0 +1,5 @@
+{
+  "name": "baseball-daily-monorepo",
+  "private": true,
+  "workspaces": ["packages/*"]
+}
